@@ -20,4 +20,5 @@ after_success:
 - chmod + x ./upload-gh-pages. sh 
 - ./upload-apk.sh 
 script: 
+- chmod +x ./gradlew
 - ./gradlew build
